@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color:cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Button{
+    padding: 0.7rem;
+    border-radius: 10px;
+    width: 6rem;
+    position: relative;
+    bottom: 5rem;
+    border: 1px solid #d2d2d2;
+}
+.Button:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Converter{
+    background-color: aliceblue;
+    height: 20rem;
+    width: 40rem;
+    border-radius: 20px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+
+}
+.Details{
+    padding-top: 3rem;
+}
+input{
+    width: 35%;
+    height: 2rem;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #d2d2d2;
+    padding: 0 10px;
+}
+input:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.CL{
+    padding: 2rem 0rem;
+}
+.FH{
+    position: relative;
+    bottom: 7rem;
+    left: 14rem;
+}
